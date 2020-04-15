@@ -1,0 +1,199 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#container{
+    width:960px;
+    margin: 0 100px 0 0;
+    background-color: rgb(230, 221, 221);
+}
+/************************
+header of page
+************************/   
+.logo{
+    width: 300px;
+    height: 100px;
+    margin-left: 0;
+}
+
+.navbar-right{
+    float: right;
+    text-decoration: none;
+    margin-top:40px;
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+ul li a{
+    margin:20px;
+    color:#921A4C;
+    text-decoration: none;
+    padding: 5px 2px 5px 2px;
+    transition: 0.7s ease;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+.active{
+    background-color: #921A4C;
+    padding: 5px 2px 5px 2px;
+    border-radius: 5px;
+    
+}
+.active a{
+    color: rgb(233, 227, 227);
+    margin-right: 13px;
+}
+ul li a:hover {
+    text-shadow: rgb(29, 28, 28) 1px 1px; 
+    color: black;
+    font-weight: 200;
+    transition: .2s ease-in;
+}
+#header-prime{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/home-2.gif) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+#header-image{
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(#861444, white, #861444);
+}
+.header-info{
+    width:66%;
+}
+.box1, .box2{
+    width: 31%;
+    height: auto;
+    margin: 10px;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.box3 form{
+    width: 100%;
+    height: auto;
+    margin: 20px 10px;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.box2{
+    width:60%;
+}
+.box3 form{
+    background: linear-gradient(90deg,rgba(0,0,0,0.7), rgba(0,0,0,0.7)), transparent ;
+    color: rgb(192, 185, 185);
+    text-decoration: none!important;
+    text-align: center;
+    height: 17vh;
+
+}
+p{
+    margin: 10px; 
+}
+pre{
+    font-size: 13px;
+}
+/*
+.box1{
+    
+}
+.box2{
+    float: left;
+    margin: 10px;
+}
+.box3{
+    float: right;
+}*/
+.main, #header-prime{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+/**********************
+typograhy
+********************/
+h1, h3{
+    color: white;
+    text-align: center;
+    
+}
+h1{
+    font-size: 100px;
+    font-family: cursive;
+    padding-top: 100px;
+}
+h2, h4{
+    padding-top: 5px;
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+    line-height: 25px;
+}
+h3{
+    font-size: 40px;
+    font-family: cursive;
+}   
+h5{
+    font-size: 20px;
+    margin-top: 7px;
+}
+.cocoa{
+    display: block;
+    width: 316px;
+    margin: 0 0 9px 0;
+    
+}
+.cocoa-page{
+    background: rgba(250, 0, 0, 0.932);
+}
+.account-submit #stay{
+    color: white;
+}
+/**************************
+form
+***************************/
+.box3 form{
+    border-radius: 15px;
+    border: 2px solid transparent;
+    font: 19px/16px bold;
+    overflow: hidden;
+    height: auto;
+   
+
+}
+.account-info{
+   border: transparent;
+    margin-bottom: 10px;
+}
+label{
+    display:block;
+    margin: 7px 0 7px 0;
+}
+input{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 3px;
+    background: transparent;
+}
+.account-submit{                       
+    border: 1px solid transparent;border-radius: 5px;
+    padding: 7px;
+    background: rgb(112, 112, 112);
+    margin: 5px;
+}
+.btn-log{
+    background: rgb(255, 248, 251);
+    border-radius: 5px;
+    cursor:pointer;
+    float: left;
+}
+.btn-log:hover{
+    background-color: transparent;
+    color: white;
+}
